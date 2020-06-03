@@ -88,6 +88,7 @@ class MyWidget extends StatelessWidget {
             // snapshot.data を使ったWidgetを返す
             return Text(snapshot.data);
           } else {
+            return Text("hello");
             // null 処理
           }
         }
